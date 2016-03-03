@@ -7,7 +7,7 @@ feature "user sees a list of favorite things" do
       file.puts([thing])
     end
 
-    visit "/favorites-list"
+    visit "/favorites"
     expect(page).to have_content("Ruby")
   end
 
