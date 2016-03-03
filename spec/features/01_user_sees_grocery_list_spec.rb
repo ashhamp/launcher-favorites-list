@@ -13,7 +13,7 @@ feature "user sees a list of favorite things" do
 
   scenario "user sees all favorites at root path" do
     CSV.open("favorites_list.csv", "a", headers: true) do |file|
-      thing = "Pysduck"
+      thing = "Psyduck"
       file.puts([thing])
     end
     visit "/"
