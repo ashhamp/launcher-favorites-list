@@ -21,7 +21,7 @@ Our app should satisfy the following requirements:
 
 ## To use this as a practice:
 
-* Run this in your terminal: `git clone git@github.com:EliseFitz15/launcher-favorites-list.git`
+* Run this in your terminal: `git clone https://github.com/EliseFitz15/launcher-favorites-list.git`
 * Then go into the directory `cd launcher-favorites-list`
 * `bundle` then `rspec`
 * Work through the test errors
